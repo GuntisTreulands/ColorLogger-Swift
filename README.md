@@ -6,7 +6,7 @@ Meant to give user almost identical log out capabilities on Swift as (https://gi
 
 Usage
 ===
-	ColorLogger Log() functions will work, in case you have added -D DEBUG flag in Other 
+	ColorLogger Log() functions will work, in case you have added * -D DEBUG * flag in Other 
 	Swift Flags. (So, in case of app release - all logs would be silenced).
 
 ![PreviewImage](https://github.com/GuntisTreulands/ColorLogger-Swift/blob/master/swiftflags.png?raw=true)
