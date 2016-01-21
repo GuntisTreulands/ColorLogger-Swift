@@ -15,16 +15,13 @@ Usage
 	Example usage:
 
 	Log()
-	LogRed()
-	LogBlue()
-	LogOrange()
 
-
-	Log()
-	Log("text")
-	Log(object)
-	Log("text count \(5) and object \(label)")
-	Log(("text", "bext", 5, string))
+	Log(window)
+	LogRed("Blue test")
+	LogBlue("Red fountain")
+	LogOrange("Yellow submarine")
+	LogBlue("text count \(5) and object \(window)")
+	LogOrange(("text", "bext", 5, temp))
 	
 	
 	(If you need, you can rename / add new / remove old functions. Colors can also be added more.)
