@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C33CA781C514424000BADE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C33CA771C514424000BADE7 /* AppDelegate.swift */; };
+		5C33CA7A1C514424000BADE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C33CA791C514424000BADE7 /* ViewController.swift */; };
+		5C33CA7D1C514424000BADE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C33CA7B1C514424000BADE7 /* Main.storyboard */; };
+		5C33CA801C514424000BADE7 /* ColoredLogs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C33CA7E1C514424000BADE7 /* ColoredLogs.xcdatamodeld */; };
+		5C33CA821C514424000BADE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C33CA811C514424000BADE7 /* Assets.xcassets */; };
+		5C33CA851C514424000BADE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C33CA831C514424000BADE7 /* LaunchScreen.storyboard */; };
+		5C33CA901C514424000BADE7 /* ColoredLogsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C33CA8F1C514424000BADE7 /* ColoredLogsTests.swift */; };
+		5C33CA9B1C514424000BADE7 /* ColoredLogsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C33CA9A1C514424000BADE7 /* ColoredLogsUITests.swift */; };
+		5C33CAA91C514439000BADE7 /* ColorLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C33CAA81C514439000BADE7 /* ColorLogger.swift */; };
+		5C33CAAA1C514439000BADE7 /* ColorLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C33CAA81C514439000BADE7 /* ColorLogger.swift */; };
+		5C33CAAB1C514439000BADE7 /* ColorLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C33CAA81C514439000BADE7 /* ColorLogger.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C33CA8C1C514424000BADE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C33CA6C1C514424000BADE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C33CA731C514424000BADE7;
+			remoteInfo = ColoredLogs;
+		};
+		5C33CA971C514424000BADE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C33CA6C1C514424000BADE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C33CA731C514424000BADE7;
+			remoteInfo = ColoredLogs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C33CA741C514424000BADE7 /* ColoredLogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColoredLogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C33CA771C514424000BADE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C33CA791C514424000BADE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C33CA7C1C514424000BADE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C33CA7F1C514424000BADE7 /* ColoredLogs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ColoredLogs.xcdatamodel; sourceTree = "<group>"; };
+		5C33CA811C514424000BADE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C33CA841C514424000BADE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C33CA861C514424000BADE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C33CA8B1C514424000BADE7 /* ColoredLogsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColoredLogsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C33CA8F1C514424000BADE7 /* ColoredLogsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredLogsTests.swift; sourceTree = "<group>"; };
+		5C33CA911C514424000BADE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C33CA961C514424000BADE7 /* ColoredLogsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColoredLogsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C33CA9A1C514424000BADE7 /* ColoredLogsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredLogsUITests.swift; sourceTree = "<group>"; };
+		5C33CA9C1C514424000BADE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C33CAA81C514439000BADE7 /* ColorLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorLogger.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C33CA711C514424000BADE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C33CA881C514424000BADE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C33CA931C514424000BADE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C33CA6B1C514424000BADE7 = {
+			isa = PBXGroup;
+			children = (
+				5C33CAA81C514439000BADE7 /* ColorLogger.swift */,
+				5C33CA761C514424000BADE7 /* ColoredLogs */,
+				5C33CA8E1C514424000BADE7 /* ColoredLogsTests */,
+				5C33CA991C514424000BADE7 /* ColoredLogsUITests */,
+				5C33CA751C514424000BADE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C33CA751C514424000BADE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C33CA741C514424000BADE7 /* ColoredLogs.app */,
+				5C33CA8B1C514424000BADE7 /* ColoredLogsTests.xctest */,
+				5C33CA961C514424000BADE7 /* ColoredLogsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C33CA761C514424000BADE7 /* ColoredLogs */ = {
+			isa = PBXGroup;
+			children = (
+				5C33CA771C514424000BADE7 /* AppDelegate.swift */,
+				5C33CA791C514424000BADE7 /* ViewController.swift */,
+				5C33CA7B1C514424000BADE7 /* Main.storyboard */,
+				5C33CA811C514424000BADE7 /* Assets.xcassets */,
+				5C33CA831C514424000BADE7 /* LaunchScreen.storyboard */,
+				5C33CA861C514424000BADE7 /* Info.plist */,
+				5C33CA7E1C514424000BADE7 /* ColoredLogs.xcdatamodeld */,
+			);
+			path = ColoredLogs;
+			sourceTree = "<group>";
+		};
+		5C33CA8E1C514424000BADE7 /* ColoredLogsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C33CA8F1C514424000BADE7 /* ColoredLogsTests.swift */,
+				5C33CA911C514424000BADE7 /* Info.plist */,
+			);
+			path = ColoredLogsTests;
+			sourceTree = "<group>";
+		};
+		5C33CA991C514424000BADE7 /* ColoredLogsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C33CA9A1C514424000BADE7 /* ColoredLogsUITests.swift */,
+				5C33CA9C1C514424000BADE7 /* Info.plist */,
+			);
+			path = ColoredLogsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C33CA731C514424000BADE7 /* ColoredLogs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C33CA9F1C514424000BADE7 /* Build configuration list for PBXNativeTarget "ColoredLogs" */;
+			buildPhases = (
+				5C33CA701C514424000BADE7 /* Sources */,
+				5C33CA711C514424000BADE7 /* Frameworks */,
+				5C33CA721C514424000BADE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColoredLogs;
+			productName = ColoredLogs;
+			productReference = 5C33CA741C514424000BADE7 /* ColoredLogs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C33CA8A1C514424000BADE7 /* ColoredLogsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C33CAA21C514424000BADE7 /* Build configuration list for PBXNativeTarget "ColoredLogsTests" */;
+			buildPhases = (
+				5C33CA871C514424000BADE7 /* Sources */,
+				5C33CA881C514424000BADE7 /* Frameworks */,
+				5C33CA891C514424000BADE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C33CA8D1C514424000BADE7 /* PBXTargetDependency */,
+			);
+			name = ColoredLogsTests;
+			productName = ColoredLogsTests;
+			productReference = 5C33CA8B1C514424000BADE7 /* ColoredLogsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C33CA951C514424000BADE7 /* ColoredLogsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C33CAA51C514424000BADE7 /* Build configuration list for PBXNativeTarget "ColoredLogsUITests" */;
+			buildPhases = (
+				5C33CA921C514424000BADE7 /* Sources */,
+				5C33CA931C514424000BADE7 /* Frameworks */,
+				5C33CA941C514424000BADE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C33CA981C514424000BADE7 /* PBXTargetDependency */,
+			);
+			name = ColoredLogsUITests;
+			productName = ColoredLogsUITests;
+			productReference = 5C33CA961C514424000BADE7 /* ColoredLogsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C33CA6C1C514424000BADE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = unknown;
+				TargetAttributes = {
+					5C33CA731C514424000BADE7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					5C33CA8A1C514424000BADE7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5C33CA731C514424000BADE7;
+					};
+					5C33CA951C514424000BADE7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5C33CA731C514424000BADE7;
+					};
+				};
+			};
+			buildConfigurationList = 5C33CA6F1C514424000BADE7 /* Build configuration list for PBXProject "ColoredLogs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C33CA6B1C514424000BADE7;
+			productRefGroup = 5C33CA751C514424000BADE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C33CA731C514424000BADE7 /* ColoredLogs */,
+				5C33CA8A1C514424000BADE7 /* ColoredLogsTests */,
+				5C33CA951C514424000BADE7 /* ColoredLogsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C33CA721C514424000BADE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C33CA851C514424000BADE7 /* LaunchScreen.storyboard in Resources */,
+				5C33CA821C514424000BADE7 /* Assets.xcassets in Resources */,
+				5C33CA7D1C514424000BADE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C33CA891C514424000BADE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C33CA941C514424000BADE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C33CA701C514424000BADE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C33CA801C514424000BADE7 /* ColoredLogs.xcdatamodeld in Sources */,
+				5C33CA7A1C514424000BADE7 /* ViewController.swift in Sources */,
+				5C33CA781C514424000BADE7 /* AppDelegate.swift in Sources */,
+				5C33CAA91C514439000BADE7 /* ColorLogger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C33CA871C514424000BADE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C33CA901C514424000BADE7 /* ColoredLogsTests.swift in Sources */,
+				5C33CAAA1C514439000BADE7 /* ColorLogger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C33CA921C514424000BADE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C33CA9B1C514424000BADE7 /* ColoredLogsUITests.swift in Sources */,
+				5C33CAAB1C514439000BADE7 /* ColorLogger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C33CA8D1C514424000BADE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C33CA731C514424000BADE7 /* ColoredLogs */;
+			targetProxy = 5C33CA8C1C514424000BADE7 /* PBXContainerItemProxy */;
+		};
+		5C33CA981C514424000BADE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C33CA731C514424000BADE7 /* ColoredLogs */;
+			targetProxy = 5C33CA971C514424000BADE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C33CA7B1C514424000BADE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C33CA7C1C514424000BADE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C33CA831C514424000BADE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C33CA841C514424000BADE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C33CA9D1C514424000BADE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C33CA9E1C514424000BADE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C33CAA01C514424000BADE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColoredLogs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.colorLogs.ColoredLogs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C33CAA11C514424000BADE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColoredLogs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.colorLogs.ColoredLogs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C33CAA31C514424000BADE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ColoredLogsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.colorLogs.ColoredLogsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColoredLogs.app/ColoredLogs";
+			};
+			name = Debug;
+		};
+		5C33CAA41C514424000BADE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ColoredLogsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.colorLogs.ColoredLogsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColoredLogs.app/ColoredLogs";
+			};
+			name = Release;
+		};
+		5C33CAA61C514424000BADE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ColoredLogsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.colorLogs.ColoredLogsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ColoredLogs;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5C33CAA71C514424000BADE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ColoredLogsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.colorLogs.ColoredLogsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ColoredLogs;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C33CA6F1C514424000BADE7 /* Build configuration list for PBXProject "ColoredLogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C33CA9D1C514424000BADE7 /* Debug */,
+				5C33CA9E1C514424000BADE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C33CA9F1C514424000BADE7 /* Build configuration list for PBXNativeTarget "ColoredLogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C33CAA01C514424000BADE7 /* Debug */,
+				5C33CAA11C514424000BADE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C33CAA21C514424000BADE7 /* Build configuration list for PBXNativeTarget "ColoredLogsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C33CAA31C514424000BADE7 /* Debug */,
+				5C33CAA41C514424000BADE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C33CAA51C514424000BADE7 /* Build configuration list for PBXNativeTarget "ColoredLogsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C33CAA61C514424000BADE7 /* Debug */,
+				5C33CAA71C514424000BADE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5C33CA7E1C514424000BADE7 /* ColoredLogs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5C33CA7F1C514424000BADE7 /* ColoredLogs.xcdatamodel */,
+			);
+			currentVersion = 5C33CA7F1C514424000BADE7 /* ColoredLogs.xcdatamodel */;
+			path = ColoredLogs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5C33CA6C1C514424000BADE7 /* Project object */;
+}
