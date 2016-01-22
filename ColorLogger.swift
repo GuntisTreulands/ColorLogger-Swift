@@ -78,7 +78,7 @@ func LogOrange(object:Any! = " "){}
 #endif
 
 
-//Prints out beginning .. for example [fg110,110,110;2016-01-21 16:12:50.739 ViewController.swift updateFrame()[106][;
+//Prints out beginning .. for example [fg110,110,110;2016-01-21 16:12:50.739 ViewController.swift updateFrame()[106]
 private func prepareBaseText(function: String, file: String, line: Int) -> String{
 	dispatch_once(&token) {
         dayTimePeriodFormatter = NSDateFormatter()
